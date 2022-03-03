@@ -3,7 +3,7 @@ package me.javgar01.pene;
 public class UD8_B3_ProgramaRectangulo {
 
     public static void main(String[] args) {
-
+        /*
         Rectangulo rec1 = new Rectangulo(0, 0, 5, 5);
         Rectangulo rec2 = new Rectangulo(7, 9, 2, 3);
 
@@ -29,6 +29,7 @@ public class UD8_B3_ProgramaRectangulo {
         int lado2 = Math.abs(rect.y1 - rect.y2);
 
         return lado1 * lado2;
+        */
+        
     }
-
 }

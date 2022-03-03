@@ -42,4 +42,17 @@ public class Persona {
         return edad;
     }
 
+
+    public void imprime(){
+        System.out.println("DNI: " + getDni() + "\nNombre: " + getNombre() + "\nApellidos: " + getApellidos() + "\nEdad: " + getEdad() + "\n");
+    }
+    public boolean esMayorEdad(){
+        if(getEdad() > 17){
+            return true;
+        } else return false;
+    }
+
+    public int diferenciaEdad(Persona p){
+        
+    }
 }

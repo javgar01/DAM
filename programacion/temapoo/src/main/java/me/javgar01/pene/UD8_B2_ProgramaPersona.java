@@ -24,6 +24,18 @@ public class UD8_B2_ProgramaPersona {
 
         System.out.println(cadena1);
         System.out.println(cadena2);
+        System.out.println();
+        
+        
+        if (persona1.esMayorEdad() == true){
+            persona1.imprime();
+        } else{System.out.println("Persona 1 no es mayor de edad");}
+
+        if (persona2.esMayorEdad() == true) {
+            persona2.imprime();
+        } else {
+            System.out.println("Persona 2 no es mayor de edad");
+        }
     }
 
 }
