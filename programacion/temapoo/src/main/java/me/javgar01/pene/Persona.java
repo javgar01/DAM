@@ -52,7 +52,8 @@ public class Persona {
         } else return false;
     }
 
+    /*
     public int diferenciaEdad(Persona p){
         
-    }
+    }*/
 }
